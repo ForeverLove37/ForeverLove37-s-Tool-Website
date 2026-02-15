@@ -27,13 +27,12 @@ theme:
 plugins:
   - search
   - i18n:
-      default_language: en
       docs_structure: suffix  # (index.md / index.zh.md)
       languages:
-        en:
+        - locale: en
           name: EN-US
           build: true
-        zh:
+        - locale: zh
           name: ZH-CN
           build: true
       material_alternate: true
