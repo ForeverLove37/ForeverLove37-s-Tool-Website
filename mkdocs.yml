@@ -1,0 +1,33 @@
+site_name: My DevOps Toolkit
+theme:
+  name: material
+  language: en           # Set language to English
+  palette:
+    # 1. Light Mode - Default
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # 2. Dark Mode - Click to Change
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - content.code.copy  # Adds a "copy" button to code blocks
+    - navigation.instant # SPA-like instant loading
+    - search.suggest     # Search auto-completion
+
+markdown_extensions:
+  - admonition           # Warning/Info blocks
+  - codehilite           # Syntax highlighting
+  - pymdownx.superfences # Advanced code blocks
+
+nav:
+  - Home: index.md

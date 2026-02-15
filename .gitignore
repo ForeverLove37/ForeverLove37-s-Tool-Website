@@ -1,0 +1,25 @@
+# 1. Python venv
+venv/
+__pycache__/
+*.py[cod]
+
+# 2. MkDocs's Data
+site/
+
+# 3. logs
+logs/
+*.log
+
+# 4. Cache & temp file
+*.tmp
+*.save
+*.swp
+.DS_Store
+.vscode/
+.idea/
+
+# 5. Private Data
+protected/setup_private.sh
+protected/*.key
+protected/*.pem
+.env
