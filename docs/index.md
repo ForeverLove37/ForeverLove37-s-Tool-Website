@@ -31,7 +31,7 @@ curl -L your-main-domain.com/<script_name> | bash
 
 **One-Click Install:**
 ```bash
-curl -L your-main-domain.com/docker | bash
+curl -L https://tool.zengjunjie.com/docker | bash
 ```
 
 ### 2. System Information (Benchmark)
@@ -43,29 +43,20 @@ curl -L your-main-domain.com/docker | bash
 curl -L your-main-domain.com/info | bash
 ```
 
-### 3. System Cleanup
-**Script Name:** `clean`
-**Description:** Removes unused packages, clears apt cache, deletes old kernels, and cleans up log files to free up disk space.
-
-**Run Cleanup:**
-```bash
-curl -L your-main-domain.com/clean | bash
-```
-
 ### 4. Network Optimization (BBR)
 **Script Name:** `bbr`
 **Description:** Enables TCP BBR congestion control to improve network speed on high-latency links.
 
 **Enable BBR:**
 ```bash
-curl -L [tool.zengjunjie.com/bbr](https://tool.zengjunjie.com/bbr) | bash
+curl -L https://tool.zengjunjie.com/bbr | bash
 ```
-### 5. Docker Image Accelerator (CN)
+### 5. Docker Image Accelerator (ONLY USEFUL IN CN)
 **Description:** Fix `i/o timeout` errors when pulling images in China by configuring registry mirrors.
 
 **Command:**
 ```bash
-curl -L [tool.zengjunjie.com/mirror](https://tool.zengjunjie.com/mirror) | bash
+curl -L https://tool.zengjunjie.com/mirror | bash
 ```
 
 ## For Administrators
