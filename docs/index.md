@@ -1,4 +1,4 @@
-# Welcome to My Server Toolkit
+# Server Toolkit
 
 This is a curated collection of shell scripts for DevOps, VPS maintenance, and system configuration. These scripts are designed for direct command-line execution via `curl`.
 
