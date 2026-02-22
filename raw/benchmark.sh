@@ -108,19 +108,19 @@ BASE_URL="https://tool.zengjunjie.com"
 case "$CHOICE" in
     1)
         echo -e "${YELLOW}>>> 正在启动全球网速测试...${NC}"
-        curl -sL $BASE_URL/speednet | bash
+        bash <(curl -sL $BASE_URL/speednet)
         echo -e "\n${YELLOW}>>> 正在启动国内三网 Ping 延迟测试...${NC}"
-        curl -sL $BASE_URL/ping-cn | bash
+        bash <(curl -sL $BASE_URL/ping-cn)
         ;;
     2)
         echo -e "${YELLOW}>>> 正在启动中国特供版网速测试...${NC}"
-        curl -sL $BASE_URL/speedcn | bash
+        bash <(curl -sL $BASE_URL/speedcn)
         echo -e "\n${YELLOW}>>> 正在启动国内三网 Ping 延迟测试...${NC}"
-        curl -sL $BASE_URL/ping-cn | bash
+        bash <(curl -sL $BASE_URL/ping-cn)
         ;;
     3)
         echo -e "${YELLOW}>>> 正在启动国内三网 Ping 延迟测试...${NC}"
-        curl -sL $BASE_URL/ping-cn | bash
+        bash <(curl -sL $BASE_URL/ping-cn)
         ;;
     4)
         echo -e "${GREEN}已跳过网络测速模块，压测结束。${NC}"
