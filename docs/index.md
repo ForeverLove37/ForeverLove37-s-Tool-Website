@@ -4,41 +4,6 @@ This is a curated collection of shell scripts for DevOps, VPS maintenance, and s
 
 ---
 
-# Table of Contents
-
-**1. Introduction**
-- Quick Start (Usage Guide)
-
-**2. Linux Scripts**
-- 2.1 System
-    - 2.1.1 System Information
-    - 2.1.2 System Benchmarking
-- 2.2 Networks
-    - 2.2.1 Application Installations (Docker, Nginx...)
-    - 2.2.2 APT/YUM Mirror Replacement
-    - 2.2.3 Registry & Repository Mirrors (China Optimization)
-    - 2.2.4 Network Optimization (BBR)
-- 2.3 Other Tools
-    - 2.3.1 Claude Code Installation and Config (Interactive)
-
-**3. Windows Scripts**
-- 3.1 System
-    - xxx
-- 3.2 Networks
-    - xxx
-- 3.3 Other Tools
-    - 3.3.1 ssh-copy-id (Windows Version Installation)
-    - 3.3.2 Claude Code Installation and Config
-
-**4. External Utilities (Bookmarks)**
-- 4.1 Benchmarking
-    - 4.1.1 Spiritlhl (ECS)
-- 4.2 Networks
-    - 4.2.1 LinuxMirrors
-
-
----
-
 ## 1. Introduction
 ### Quick Start (Usage Guide)
 
