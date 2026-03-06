@@ -25,7 +25,6 @@ theme:
     - search.suggest     # Search auto-completion
 
 plugins:
-  - search
   - i18n:
       docs_structure: suffix  # (index.md / index.zh.md)
       languages:
@@ -37,6 +36,11 @@ plugins:
           name: ZH-CN
           build: true
       material_alternate: true
+  - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s\-\.]+'
 
 markdown_extensions:
   - admonition           # Warning/Info blocks
