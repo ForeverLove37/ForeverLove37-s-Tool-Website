@@ -43,6 +43,19 @@ curl -L https://tool.zengjunjie.com/info | bash
 curl -L https://tool.zengjunjie.com/benchmark | bash
 ```
 
+#### 2.1.3 Snap Uninstall (Ubuntu compatible)
+**Script Name:** `rmsnap`
+**Description:** Remove snap from your Ubuntu Server and avoid snap retrieving sliently.
+**Command:**
+```bash
+bash <(curl -L https://tool.zengjunjie.com/rmsnap)
+```
+
+*PS: If you want to restore your snap you can still use this command to automatically restore it.*
+```bash
+bash <(curl -L tool.zengjunjie.com/restoresnap)
+```
+
 ### 2.2 Networks
 
 #### 2.2.1 Application Installations
@@ -61,6 +74,22 @@ curl -L https://tool.zengjunjie.com/docker | bash
 **Command:**
 ```bash
 curl -L https://tool.zengjunjie.com/nginx | bash
+```
+
+##### iii. Certbot installation without snap
+**Script Name:** `certbot`
+**Description:** Automates the installation of Certbot.
+**Command:**
+```bash
+curl -L https://tool.zengjunjie.com/certbot | bash
+```
+
+##### iv. Conda Environment
+**Script Name:** `conda`
+**Description:** Automates the installation of Miniconda.
+**Command:**
+```bash
+curl -L https://tool.zengjunjie.com/conda | bash
 ```
 
 #### 2.2.2 APT/YUM Mirror Replacement
